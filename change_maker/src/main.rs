@@ -13,9 +13,10 @@ fn main(){
                                 .trim()                     // get rid of white spaces
                                 .parse()                    // parse this tring slice into another type
                                 .expect("Not an integer");  // if it fails to parse, write this message
+    line.clear();   // clear the input string once we are done ith it use user in other io operations
     
     let total: f32 = item_price * num_purchased as f32; // casting uses the "as" keyword. Here: I multiply item_price (f32) by num_purchased (i32) as a f32
-    println!("Your total purchase price is ${}", total);
+    println!("Your total purchase price is ${:.2}", total);
 
     println!("How much money are you giving the casier?");
     std::io::stdin()
@@ -26,5 +27,7 @@ fn main(){
                         .trim()
                         .parse()
                         .expect("Error at cash assignment");
-    println!("{}",cash);
+
+    let change: f32 = cash - total;
+    println!("Your change is ${:.2}. Have a nice day!", change);
 }
