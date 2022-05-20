@@ -8,7 +8,7 @@ Currently, the path I am taking in learning Rust is by coding several programs:
 
 [x] 2. <ins>**Change Maker**</ins>: this will let me learn how to assign variables of different types, casting, getting user input and assigning them to variables, and formatting print statements.
 
-[ ] 3. <ins>**Number Guesser**</ins>: add in some conditional statements and loops
+[x] 3. <ins>**Number Guesser**</ins>: add in some conditional statements and loops, adding dependencies
 
 [ ] 4. <ins>**Cesar Cypher**</ins>: work with functions, arrays, and string manipulation
 
