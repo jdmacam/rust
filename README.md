@@ -1,4 +1,4 @@
-# Self-teaching Rust
+# Self-teaching [Rust Programming Language](https://www.rust-lang.org/) 
 
 This is the repository that'll hold the files I create in my process of learning **Rust**!
 
