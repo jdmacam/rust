@@ -10,7 +10,7 @@ Currently, the path I am taking in learning Rust is by coding several programs:
 
 [x] 3. <ins>**Number Guesser**</ins>: add in some conditional statements and loops, adding dependencies
 
-[ ] 4. <ins>**Cesar Cypher**</ins>: work with functions, arrays, and string manipulation
+[x] 4. <ins>**Cesar Cipher**</ins>: work with functions, arrays, and string manipulation
 
 [ ] 5. <ins>**Horse Race**</ins>: OOP, classes
 
